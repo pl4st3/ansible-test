@@ -1,0 +1,4 @@
+[common]
+#minumum_example	 ip=	ansible_ssh_host={{ip}} ansible_ssh_port=22
+
+

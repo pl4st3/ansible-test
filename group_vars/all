@@ -1,0 +1,529 @@
+# Globale Variablen für alle Server
+build_tunnels_over_ipv6_if_available: true
+
+
+domaenen:
+  "01":
+    name: Velbert
+    shortname: vel
+    hostname_prefix: VEL-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.1.0.0/16
+    ffv6_network: 2a03:2260:300e:0100::/64
+#   fastdpeers:
+#      1: efd2155bf25585788ae333bd228ec960c4ce6d100dd3c0ad5f08e88adf516059
+#      2: 65071e80af35865830c5e5014c1279bf7b7bd2bcc06b9f721137ee1f624ce4d4
+#      3: 0c3131778981c318135e0f552d747c513f0589ac9a214ad75731c8455a442c20
+#      4: dd43a7d1c3f893ec67f13aca90bb5be2d449e8a83e943869f240b1f99ca7297a
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: vel/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.330611638
+    lon: 7.084465027
+    zoom: 12
+    wifi24channel: 9
+    wifi5channel: 44
+    url_website:
+    nextnode4:
+    nextnode6:
+    authorized_admins:
+
+
+  "02":
+    name: Mettmann
+    name_adj: "mettmanner "
+    shortname: met
+    hostname_prefix: ME-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.2.0.0/16
+    ffv6_network: 2a03:2260:300e:0200::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: met/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.2506
+    lon: 6.9746
+    zoom: 14
+    authorized_admins:
+
+
+
+  "03":
+    name: Ratingen
+    name_adj: "ratinger "
+    shortname: rat
+    hostname_prefix: RAT-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.3.0.0/16
+    ffv6_network: 2a03:2260:300e:0300::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: met/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.2968
+    lon: 6.8480
+    zoom: 13
+    authorized_admins:
+  
+  "04":
+    name: Hilden
+    name_adj: "hildener "
+    shortname: hld
+    hostname_prefix: HLD-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.4.0.0/16
+    ffv6_network: 2a03:2260:300e:0400::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: hld/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.1687
+    lon: 6.9331
+    zoom: 13
+    authorized_admins:
+
+
+
+  "05":
+    name: Monheim
+    name_adj: "monheimer "
+    shortname: mon
+    hostname_prefix: MON-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.5.0.0/16
+    ffv6_network: 2a03:2260:300e:0500::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: mon/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.0893
+    lon: 6.8900
+    zoom: 14
+    authorized_admins:
+      - "adorfer"
+      - "plaste"
+      - "alex"
+
+
+  "06":
+    name: Haan
+    name_adj: "haaner "
+    shortname: han
+    hostname_prefix: HAAN-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.6.0.0/16
+    ffv6_network: 2a03:2260:300e:0600::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: han/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.2006
+    lon: 7.0056
+    zoom: 13
+    authorized_admins:
+
+  "07":
+    name: Erkrath
+    name_adj: "erkrather "
+    shortname: erk
+    hostname_prefix: ERK-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.7.0.0/16
+    ffv6_network: 2a03:2260:300e:0700::/64
+    #   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: erk/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.2145
+    lon: 6.9318
+    zoom: 13
+    authorized_admins:
+    
+  "08":
+    name: Heiligenhaus
+    name_adj: "heiligenhauser "
+    shortname: hlg
+    hostname_prefix: HLG-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.8.0.0/16
+    ffv6_network: 2a03:2260:300e:0800::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: hlg/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.3250 
+    lon: 6.9707
+    zoom: 13
+    authorized_admins:
+
+
+  "09":
+    name: Langenfeld
+    name_adj: "langenfelder "
+    shortname: lgf
+    hostname_prefix: LGF-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.9.0.0/16
+    ffv6_network: 2a03:2260:300e:0900::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: lgf/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.1051
+    lon: 6.9519
+    zoom: 13
+    authorized_admins:
+    
+  "10":
+    name: Wülfrath
+    name_adj: "wülfrather "
+    shortname: wlf
+    hostname_prefix: WLF-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.10.0.0/16
+    ffv6_network: 2a03:2260:300e:0a00::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: wlf/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.2863
+    lon: 7.0367
+    zoom: 13
+    authorized_admins:
+   
+  "11":
+    name: LVR-HPH
+    name_adj: "LVR-Unterkunfts-"
+    shortname: lvr
+    hostname_prefix: LVR-
+    community: Freifunk im Neanderland
+    metacommunity: Neanderfunk
+    metacom: ffnef
+    ffv4_network: 10.11.0.0/16
+    ffv6_network: 2a03:2260:300e:0b00::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: lvr/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.ffnef.de"
+    firmware_backup_fqdn: "ffnef.de"
+    firmware_int_fqdn: "ffnef"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://karte.neanderfunk.de"
+    lat: 51.1388
+    lon: 7.2056
+    zoom: 9
+    authorized_admins:
+
+  "12":
+    name: Düsseldorf-Unterkünfte
+    name_adj: "düsseldorfer Unterkunfts-"
+    shortname: dusuk
+    hostname_prefix: dusuk-
+    community: Düsseldorf Flingern
+    metacommunity: Eulenfunk
+    metacom: ff 
+    ffv4_network: 10.155.128.0/17
+    ffv6_network: 2a0f:b507:ff02:0100::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: mon/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "images.ffdus.de/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://map.ffdus.de.de"
+    lat: 51.2140
+    lon: 6.8255
+    zoom: 11
+    wifi5channel: 48
+    authorized_admins:
+      - "8c8b"
+      - "Frankth"
+      - "wiesjoe"
+  
+  "13":
+    name: Düsseldorf-Flingern
+    name_adj: "flingerner "
+    shortname: dusfl
+    hostname_prefix: dusfl-
+    community: Düsseldorf Flingern
+    metacommunity: Eulenfunk
+    metacom: ff
+    ffv4_network: 10.155.0.0/17
+    ffv6_network: 2a0f:b507:ff02:0200::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: dusfl/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "images.ffdus.de/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://map.ffdus.de.de"
+    lat: 51.2236
+    lon: 6.8228
+    zoom: 14
+    wifi5channel: 48
+    authorized_admins:
+      - "8c8b"
+      - "Frankth"
+      - "wiesjoe"
+     
+  "14":
+    name: Wuppertal-Barmen
+    name_adj: "wuppertaler "
+    shortname: bar
+    hostname_prefix: bar-
+    community: Wuppertal Barmen
+    metacommunity: Eulenfunk
+    metacom: ff
+    ffv4_network: 10.156.0.0/16
+    ffv6_network: 2a0f:b507:ff02:0300::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: bar/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.freifunk.space/firmware/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://bar.map.freifunk.space"
+    lat: 51.2645
+    lon: 7.1835
+    zoom: 12
+    authorized_admins:
+
+  
+  "15":
+    name: Marienheide
+    name_adj: "marienheider "
+    shortname: mrh
+    hostname_prefix: mrh-
+    community: Eulenfunk NRW
+    metacommunity: Eulenfunk
+    metacom: ff
+    ffv4_network: 10.157.0.0/16
+    ffv6_network: 2a0f:b507:ff02:0400::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: mrh/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.freifunk.space/firmware/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://mrh.map.freifunk.space"
+    lat: 51.0832 
+    lon: 7.5330
+    zoom: 14
+    wifi5channel: 48
+    authorized_admins:
+
+
+  "16":
+    name: Gummersbach
+    name_adj: "gummersbacher "
+    shortname: gmb
+    hostname_prefix: gmb-
+    community: Eulenfunk NRW
+    metacommunity: Eulenfunk
+    metacom: ff
+    ffv4_network: 10.158.0.0/16
+    ffv6_network: 2a0f:b507:ff02:0500::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: mon/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.freifunk.space/firmware/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://gmb.map.freifunk.space"
+    lat: 51.0227
+    lon: 7.5627
+    zoom: 14
+    authorized_admins:
+
+  "17":
+    name: Wipperfürth
+    name_adj: "wipperfürther "
+    shortname: wip
+    hostname_prefix: wip-
+    community: Eulenfunk NRW
+    metacommunity: Eulenfunk
+    metacom: ff
+    ffv4_network: 10.159.0.0/16
+    ffv6_network: 2a0f:b507:ff02:0600::/64
+#   map_scale: 0.9
+#   map_show_contact: false
+#   map_max_age: 14
+#   firmware: mon/
+    fwpubdir: firmware
+    firmware_pub_fqdn: "firmware.freifunk.space/firmware/"
+    firmware_backup_fqdn: "ffdus.de"
+    firmware_int_fqdn: "ffdus"
+    firmware_ip6: "2a03:2260:300e:1300::733"
+    maplink: "https://wip.map.freifunk.space"
+    lat: 51.1173
+    lon: 7.3940
+    zoom: 13
+    authorized_admins:
+
+    
+
+gluon_global_vars:
+  wifi24channel: 9
+  wifi5channel: 44
+  authorized_admins:
+   - "adorfer"
+   - "plaste"
+   - "alex_fw"
+
+# Nummer der Routing Tabelle, die auf den Servern verwendet wird
+routing_table: 42
+
+# Batman Einstellungen
+batman:
+  version: 2019.4
+  # Bandbreite, die Batman annoncieren soll
+  downstream: 1024Mbit
+  # Bandbreite, die Batman annoncieren soll
+  upstream: 1024Mbit
+
+# Parameter für das eigene Freifunk-Netzwerk
+ff_network:
+  # Eindeutige AS-Nummer des Netzwerk
+  as_number: 64863
+  # IPv4 Adressraum
+  v4_network: 10.43.0.0/16
+  # IPv6 adressraum
+  v6_network: 2a03:2260:300e::/48
+  v6_anycast: 'ac1'
+
+bind:
+  ffnet_zone_type: slave
+  ffnet_zone_masters:
+     - 10.45.67.123
+bind_zonemaster:
+  server: ns1.nadeshda.net
+  email: kontakt@neanderfunk.de
+
+logrotate:
+  cycle: daily
+  count: 3
+
+freifunk:
+  name: "Freifunk im Neanderland"
+  kurzname: "FFNEF"
+  search_domain: "ffnef.de"
+  email: kontakt@neanderfunk.de
+  domain: neanderfunk.de
+
+domains:
+  "ffnef.de":
+    extern_dns:
+      # -
+      # -
+    email: kontakt@neanderfunk.de
+
+ipv6backbone64prefixstr: "2a03:2260:300e:"
+
+check_mk:
+  deb: https://monitoring.ffnef.de/freifunk/check_mk/agents/check-mk-agent_1.6.0p11-1_all.deb
+
+administratorenteam:
+  - "adorfer"
+  - "plaste"
+
+ntp:
+ intern: "ntp.ffnef"
+ extern: "ntp.ffnef.de"
